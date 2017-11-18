@@ -11,6 +11,11 @@
   If hero is first section on homepage, add class that sets
   negative top-margin for alignment and force full height.
 {% endcomment %}
+<style>
+div[data-section-id="{{ section.id }}"] {
+  margin-bottom: -30px
+}
+</style>
 
 <div data-section-id="{{ section.id }}" data-section-type="slideshow-section">
   {% if section.blocks.size > 0 %}

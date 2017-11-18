@@ -1,0 +1,44 @@
+.site-footer a[rel="nofollow"] {
+  display: none;
+}
+
+.main-content {
+  padding-top: 0px;
+}
+
+.main-content .shopify-section:not(:first-of-type) {
+  margin-top: 0;
+}
+
+.main-content .shopify-section:not(:first-of-type) [data-section-id] {
+  padding-top: 60px;  
+}
+
+#CartDrawer {
+  background: #090C23;
+}
+
+#CartDrawer .cart__checkout {
+  background: #E2AF7D;
+}
+
+#CartDrawer .cart__checkout:hover {
+  background: #D5C1A8;
+}
+
+.newsletter__submit {
+  background: #090C23;
+}
+
+@media screen and (min-width: 769px) {
+  .site-nav__link--icon .icon {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .product--wrapper {
+    margin: 0;
+  }
+}
+

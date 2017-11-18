@@ -1,3 +1,16 @@
+<style>
+.newsletter {
+  background: {{ section.settings.bg_color }};
+  color: {{ section.settings.text_color }};
+}
+
+.newsletter hr {
+  color: {{ section.settings.hr_color }};
+  border-color: {{ section.settings.hr_color }};
+  background-color: {{ section.settings.hr_color }};
+}
+</style>
+
 <div class="newsletter">
   <div class="wrapper">
     {% unless section.settings.heading == blank %}
@@ -61,6 +74,21 @@
       {
         "type": "paragraph",
         "content": "Any customers who sign up will have an account created for them in Shopify. [View customers](/admin/customers?query=&accepts_marketing=1)"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color"
+      },
+      {
+        "type": "color",
+        "id": "hr_color",
+        "label": "hr line color"
       }
     ],
     "presets": [{

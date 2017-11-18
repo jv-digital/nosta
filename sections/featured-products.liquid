@@ -1,3 +1,25 @@
+<style>
+div[data-section-id="{{ section.id }}"] {
+  background: {{ section.settings.bg_color }};
+  color: {{ section.settings.text_color }};
+}
+
+div[data-section-id="{{ section.id }}"] * {
+  color: {{ section.settings.text_color }};
+}
+
+div[data-section-id="{{ section.id }}"] hr {
+  color: {{ section.settings.hr_color }};
+  border-color: {{ section.settings.hr_color }};
+  background-color: {{ section.settings.hr_color }};
+}
+
+div[data-section-id="{{ section.id }}"] a.btn.text-link {
+  background: {{ section.settings.btn_bg_color }};
+  color: {{ section.settings.btn_text_color }}
+}
+</style>
+
 <div id="CollectionSection" data-section-id="{{ section.id }}" data-section-type="collection-template" data-grid-type="{{ section.settings.collection_products_grid }}">
   <div class="wrapper">
     {% if section.settings.title != blank %}
@@ -88,6 +110,31 @@
             "label": "Grid"
           }
         ]
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color"
+      },
+      {
+        "type": "color",
+        "id": "btn_bg_color",
+        "label": "Button background color"
+      },
+      {
+        "type": "color",
+        "id": "btn_text_color",
+        "label": "Button text color"
+      },
+      {
+        "type": "color",
+        "id": "hr_color",
+        "label": "hr line color"
       }
     ],
     "presets": [{
