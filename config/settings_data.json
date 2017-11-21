@@ -9,10 +9,10 @@
     "color_sale_tag": "#990000",
     "color_input": "#f6f6f6",
     "color_newsletter": "#f6f6f6",
-    "color_drawer_background": "#1c1d1d",
+    "color_drawer_background": "#090c23",
     "color_drawer_text": "#ffffff",
     "color_drawer_border": "#343535",
-    "color_drawer_button": "#a26b25",
+    "color_drawer_button": "#e2af7d",
     "color_drawer_button_text": "#ffffff",
     "type_header_family": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif",
     "type_header_base_size": "30px",
@@ -38,9 +38,9 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "favicon": "",
-    "checkout_header_image": "",
-    "checkout_logo_image": "",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/homepage-flame-copy.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/white.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
@@ -48,8 +48,8 @@
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_image": "",
     "checkout_sidebar_background_color": "#fafafa",
-    "checkout_heading_font": "Helvetica Neue",
-    "checkout_body_font": "Helvetica Neue",
+    "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_body_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
     "checkout_accent_color": "#a26b25",
     "checkout_button_color": "#000000",
     "checkout_error_color": "#ff6d6d",
@@ -89,7 +89,7 @@
               "slide_subheading": "",
               "slide_heading": "Nostalgia is in the air.",
               "slide_cta": "Shop now",
-              "slide_link": "shopify:\/\/collections\/all"
+              "slide_link": "shopify:\/\/collections\/handcrafted-candles"
             }
           }
         },
@@ -104,9 +104,14 @@
       "featured-products": {
         "type": "featured-products",
         "settings": {
-          "title": "Try our latest collection.",
+          "title": "Try our latest collection of handcrafted, 100% natural plant-based candles.",
           "home_featured_products": "frontpage",
-          "collection_products_grid": "grid"
+          "collection_products_grid": "grid",
+          "bg_color": "#090c23",
+          "text_color": "#ffffff",
+          "btn_bg_color": "",
+          "btn_text_color": "",
+          "hr_color": "#ffffff"
         }
       },
       "featured-content": {
@@ -122,13 +127,21 @@
         "block_order": [
           "1510464489697"
         ],
-        "settings": {}
+        "settings": {
+          "bg_color": "#ffffff",
+          "text_color": "#000000",
+          "btn_bg_color": "#090c23",
+          "btn_text_color": "#ffffff"
+        }
       },
       "newsletter": {
         "type": "newsletter",
         "settings": {
           "heading": "Subscribe to our newsletter",
-          "subheading": "Stay up to date with new seasonal scents, unique projects from our artist partners, and limited-time special offers."
+          "subheading": "Stay up to date with new seasonal scents, unique projects from our artist partners, and limited-time special offers.",
+          "bg_color": "#37562c",
+          "text_color": "#ffffff",
+          "hr_color": "#ffffff"
         }
       },
       "drawer-menu": {

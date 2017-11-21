@@ -15,7 +15,7 @@
 }
 
 #CartDrawer {
-  background: #090C23;
+  z-index: 2147483645;
 }
 
 #CartDrawer .cart__checkout {
@@ -26,8 +26,36 @@
   background: #D5C1A8;
 }
 
+.newsletter * {
+  font-family: 'Andale Mono';
+}
+
 .newsletter__submit {
   background: #090C23;
+}
+
+.product--wrapper {
+  max-width: none !important;
+  max-height: none !important;
+}
+
+.product--image {
+  max-width: none !important;
+  max-height: none !important;
+}
+
+.product-single__description {
+  font-family: 'Andale Mono', 'Garamond', 'Baskerville', 'Baskerville Old Face';
+}
+
+.grid-product__image-link {
+  background-color: transparent;
+}
+
+@media screen and (min-width: 591px) {
+  .product-single__description {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -36,7 +64,7 @@
   }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 591px) {
   .product--wrapper {
     margin: 0;
   }
