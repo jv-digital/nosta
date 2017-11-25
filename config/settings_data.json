@@ -3,7 +3,7 @@
     "color_body_bg": "#ffffff",
     "color_body_text": "#1c1d1d",
     "color_borders": "#090c23",
-    "color_primary": "#090c23",
+    "color_primary": "#37562c",
     "color_secondary": "#37562c",
     "color_product_background": "#f7f7f7",
     "color_sale_tag": "#990000",
@@ -25,10 +25,10 @@
     "type_base_italize_titles": true,
     "cart_type": "drawer",
     "cart_notes_enable": false,
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/nostafragrances",
     "social_twitter_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/nostafragrances\/",
     "social_snapchat_link": "",
     "social_google_plus_link": "",
     "social_tumblr_link": "",
@@ -70,10 +70,10 @@
           "logo-inverted": "shopify:\/\/shop_images\/white.png",
           "logo_max_width": "100",
           "search": "none",
-          "show_announcement": true,
+          "show_announcement": false,
           "home_page_only": true,
           "text": "FREE SHIPPING on all orders over $75 today. Take a trip back in time...",
-          "link": "shopify:\/\/collections\/all",
+          "link": "shopify:\/\/collections\/handcrafted-candles",
           "color_bg": "#1c1d1d",
           "color_text": "#ffffff"
         }
@@ -193,11 +193,19 @@
           "show_share_buttons": true,
           "social_message": "Spread the word"
         }
+      },
+      "1511637304119": {
+        "type": "featured-video",
+        "settings": {
+          "heading": "Each fragrance is especially designed to take you back to your favorite memories.",
+          "video_url": "https:\/\/vimeo.com\/244465788"
+        }
       }
     },
     "content_for_index": [
       "featured-content",
       "featured-products",
+      "1511637304119",
       "newsletter"
     ]
   },

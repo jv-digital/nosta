@@ -5,6 +5,24 @@
   {% assign number_of_comments = article.comments_count | plus: 1 %}
 {% endif %}
 
+<style>
+  .blog-image-wrapper {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  @media screen and (min-width: 580px) {
+    .blog-image-wrapper img {
+      transform: translateY(-33%);
+    }
+  }
+</style>
+
+<div class="blog-image-wrapper">
+  <img src="{{ article.image.src | img_url: '1600x900' }}">
+</div>
 <div class="grid">
   <article class="grid__item large--five-sixths push--large--one-twelfth article" itemscope itemtype="http://schema.org/Article">
 
