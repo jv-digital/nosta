@@ -36,7 +36,7 @@ assets/respond.min.js:
 assets/theme-fonts.css:
   development: 2017-11-25T14:47:25-05:00   674e675121b779c0816a031c206b42af
 assets/theme-override.css.liquid:
-  development: 2017-11-25T14:47:25-05:00   4f6a08c409def7d76a15133d298b7647
+  development: 2017-11-25T18:13:39-05:00   8af4bffed3fedc72587752ff6d4c1411
 assets/theme.js.liquid:
   development: 2017-11-25T14:47:26-05:00   b4316753be51314359dd9b38e20fbb0b
 assets/theme.scss.liquid:
